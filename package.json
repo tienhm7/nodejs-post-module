@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-post-modules",
+  "version": "1.0.0",
+  "description": "Template nodejs modules for GraphQL and RESTful",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "TienHM",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:tienhm7/nodejs-post-modules.git",
+    "directory": "nodejs-post-modules"
+  },
+  "dependencies": {
+    "mongoose": "^6.6.5",
+    "req-res-formatter": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "typescript": "^4.8.4"
+  }
+}
